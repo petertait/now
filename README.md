@@ -1,2 +1,1 @@
-# dockit
-Let's dock it
+- force https: @htaccess:10

@@ -1,0 +1,14 @@
+{
+  "name": "heyallan/kirbydocker",
+  "description": "Kirby on docker",
+  "type": "project",
+  "require-dev": {
+    "php": "^5.5"
+  },
+  "license": "MIT",
+  "authors": [{
+    "name": "heyallan",
+    "email": "allanmoreno@live.com"
+  }],
+  "minimum-stability": "beta"
+}
