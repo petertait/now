@@ -3,12 +3,12 @@
   "description": "Kirby on docker",
   "type": "project",
   "require-dev": {
-    "php": "^5.5"
+    "php": "^5.5",
+    "ext-mbstring": "*"
   },
   "license": "MIT",
   "authors": [{
     "name": "heyallan",
     "email": "allanmoreno@live.com"
-  }],
-  "minimum-stability": "stable"
+  }]
 }
