@@ -14,6 +14,10 @@
 ## Setup Dockerfile
 
 - require: apache2, php5, libapache2-mod-php5
+- examples:
+  - https://github.com/joyent/kirby-preview-base/blob/master/Dockerfile
+  - https://github.com/bhurlow/docker-kirby-nginx/blob/master/Dockerfile
+  - https://github.com/thezodl/Docker-Kirby-Alpine-PHP-Nginx/blob/master/Dockerfile
 
 ## Deploy to Now
 
