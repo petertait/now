@@ -9,7 +9,6 @@ RUN a2enmod rewrite
 RUN sed -i -e '/<Directory \/var\/www\/html/,/<\/Directory>/ s/AllowOverride None/AllowOverride All/' /etc/apache2/apache2.conf
 RUN sed -i -e 's/#.*//' /etc/apache2/apache2.conf
 RUN sed -i -e '/^$/ d' /etc/apache2/apache2.conf
-RUN cp /etc/apache2/apache2.conf /var/www/html/z.txt
 
 RUN rm -fr /var/www/html/*
 COPY dist /var/www/html/
@@ -17,5 +16,3 @@ COPY dist /var/www/html/
 EXPOSE 80
 
 CMD ["apache2ctl", "-D", "FOREGROUND"]
-
-RUN ls /var/www/html/
